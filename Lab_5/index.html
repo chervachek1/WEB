@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<section id="first">
+        <div class="full">
+            <div class="lt">
+                <form class="form-horizontal" name="myForm" method="post" action="index.php" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="ПІБ" name="name" value=""/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="phone" placeholder="Телефон" name="phone" value=""/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="id_card" placeholder="ID-card" name="id_card" value=""/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="faculty" placeholder="Факультет" name="faculty" value=""/>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="birthday" placeholder="Дата народження" name="birthday" value=""/>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+	</section>
+        
+    <section id="second">
+        <div class="palitra">
+            <input type="color" id="color" name="head" value="#e66465">
+        </div>
+        <table class="tg">
+            <tbody>
+              <tr>
+                <td class="tg-baqh diagonal">1</th>
+                <td class="tg-baqh">2</th>
+                <td class="tg-baqh variant" id="variant" onclick="color();" ondblclick="color2();">3</th>
+                <td class="tg-baqh">4</th>
+                <td class="tg-baqh">5</th>
+                <td class="tg-baqh">6</th>
+              </tr>
+              <tr>
+                <td class="tg-baqh">7</td>
+                <td class="tg-baqh diagonal">8</td>
+                <td class="tg-baqh">9</td>
+                <td class="tg-baqh">10</td>
+                <td class="tg-baqh">11</td>
+                <td class="tg-baqh">12</td>
+              </tr>
+              <tr>
+                <td class="tg-baqh">13</td>
+                <td class="tg-baqh">14</td>
+                <td class="tg-baqh diagonal">15</td>
+                <td class="tg-baqh">16</td>
+                <td class="tg-baqh">17</td>
+                <td class="tg-baqh">18</td>
+              </tr>
+              <tr>
+                <td class="tg-baqh">19</td>
+                <td class="tg-baqh">20</td>
+                <td class="tg-baqh">21</td>
+                <td class="tg-baqh diagonal">22</td>
+                <td class="tg-baqh">23</td>
+                <td class="tg-baqh">24</td>
+              </tr>
+              <tr>
+                <td class="tg-baqh">25</td>
+                <td class="tg-baqh">26</td>
+                <td class="tg-baqh">27</td>
+                <td class="tg-baqh">28</td>
+                <td class="tg-baqh">29</td>
+                <td class="tg-baqh">30</td>
+              </tr>
+              <tr>
+                <td class="tg-baqh">31</td>
+                <td class="tg-baqh">32</td>
+                <td class="tg-baqh">33</td>
+                <td class="tg-baqh">34</td>
+                <td class="tg-baqh">35</td>
+                <td class="tg-baqh">36</td>
+              </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <script src="data.js"></script>
+</body>
+</html>
