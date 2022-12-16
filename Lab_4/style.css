@@ -1,0 +1,16 @@
+
+#button_1.active { 
+    color:red; 
+    background-color: blue;
+}
+
+#button_2.active { 
+    color:blue; 
+    background-color: red;
+}
+
+.buttons {
+    position:fixed;
+    left:0;
+    bottom:0;
+}
