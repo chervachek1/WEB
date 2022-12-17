@@ -33,7 +33,7 @@ function App() {
   
 function GoodsCard(props) {
     return (
-      <div>
+      <div className="item">
         <img src={props.image} width="20%" height="50%"></img>
         <p>{props.name}</p>
         <p>Price: {props.price} USD</p>

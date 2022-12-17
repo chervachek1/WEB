@@ -3,11 +3,11 @@ import React, { useState } from "react"
 class Content extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {isToggleOn: true};
+        this.state = {isToggleOn: false};
 
         this.handleClick = this.handleClick.bind(this);
 
-        this.state2 = {isToggleOn2: true};
+        this.state2 = {isToggleOn2: false};
 
         this.handleClick2 = this.handleClick2.bind(this);
     }
