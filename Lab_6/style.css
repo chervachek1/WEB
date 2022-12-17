@@ -1,10 +1,60 @@
-table, th, td {
-    border: solid 1px #ddd;
-    border-collapse: collapse;
-    padding: 2px 3px;
-    text-align: center;
+body {
+    background-color: #808080;
 }
 
-th { 
-    font-weight:bold;
+.container {
+    height: 100px;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border: 2px solid #ECE5E5;
+    border-radius: 22px;
+    width: 200px;
+    height: 50px;
+    background-color: #343a40;
+    color: #FF7F6E;
+}
+
+table {
+    display: block;  
+    margin-left: 6%;  
+}
+
+td{
+    box-shadow: 1px 1px 5px 1px #FBF8F8;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+
+
+.tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+#data-output {
+    display: inline;
+    justify-content: center;
+}
+
+.people_data {
+    color: white;
+    width: 25%;
+    background-color: #343a40;
 }
